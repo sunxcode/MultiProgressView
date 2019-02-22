@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  StorageExampleViewController.swift
 //  MultiProgressView
 //
 //  Created by Mac Gallagher on 7/7/18.
@@ -9,7 +9,7 @@
 import UIKit
 import MultiProgressView
 
-class ViewController: UIViewController {
+class StorageExampleViewController: UIViewController {
     private let backgroundView: UIView = {
         let view = UIView()
         view.backgroundColor = .white
@@ -151,7 +151,7 @@ class ViewController: UIViewController {
     }
 }
 
-extension UIViewController: MultiProgressViewDataSource {
+extension StorageExampleViewController: MultiProgressViewDataSource {
     public func numberOfSections(in progressBar: MultiProgressView) -> Int {
         return 7
     }
