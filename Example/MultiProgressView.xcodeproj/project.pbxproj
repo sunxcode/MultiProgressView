@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		5ED3A186418B5166513B19E0 /* Pods_MultiProgressView_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD43E7433DD1898180C5B05E /* Pods_MultiProgressView_Tests.framework */; };
 		7F623FDE3F5C6636F98C6EE0 /* Pods_MultiProgressView_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32AC331554740EDEA43EC16F /* Pods_MultiProgressView_Example.framework */; };
+		AD075BB122204750005B23B8 /* UIViewExtensionsSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD075BAF2220472B005B23B8 /* UIViewExtensionsSpec.swift */; };
 		AD44368221E157DD00A98A97 /* UIColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD44368121E157DD00A98A97 /* UIColor+Extensions.swift */; };
 		AD44368721E15F3000A98A97 /* StorageProgressSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD44368621E15F3000A98A97 /* StorageProgressSection.swift */; };
 		AD44368921E1908300A98A97 /* StorageStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD44368821E1908300A98A97 /* StorageStackView.swift */; };
@@ -41,6 +42,7 @@
 		34E8A8CB8CECEADBDB015445 /* Pods-MultiProgressView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MultiProgressView_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-MultiProgressView_Example/Pods-MultiProgressView_Example.release.xcconfig"; sourceTree = "<group>"; };
 		38A60C038AB8AFCB4AB0A11E /* Pods-MultiProgressView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MultiProgressView_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MultiProgressView_Tests/Pods-MultiProgressView_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		42327A871F0BF754C72B0C25 /* Pods-MultiProgressView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MultiProgressView_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MultiProgressView_Tests/Pods-MultiProgressView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		AD075BAF2220472B005B23B8 /* UIViewExtensionsSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtensionsSpec.swift; sourceTree = "<group>"; };
 		AD43E7433DD1898180C5B05E /* Pods_MultiProgressView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MultiProgressView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD44368121E157DD00A98A97 /* UIColor+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extensions.swift"; sourceTree = "<group>"; };
 		AD44368621E15F3000A98A97 /* StorageProgressSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageProgressSection.swift; sourceTree = "<group>"; };
@@ -163,6 +165,7 @@
 			children = (
 				AD59919E21D438E3001381F9 /* MultiProgressViewSpec.swift */,
 				ADE1AEC821D40DF2000D9539 /* ProgressBarSectionSpec.swift */,
+				AD075BAF2220472B005B23B8 /* UIViewExtensionsSpec.swift */,
 				ADE1AED621D416B6000D9539 /* Supporting Files */,
 			);
 			path = Tests;
@@ -386,6 +389,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD075BB122204750005B23B8 /* UIViewExtensionsSpec.swift in Sources */,
 				AD59919F21D438E3001381F9 /* MultiProgressViewSpec.swift in Sources */,
 				ADE1AEC921D40DF2000D9539 /* ProgressBarSectionSpec.swift in Sources */,
 			);
